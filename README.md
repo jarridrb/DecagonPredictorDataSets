@@ -32,7 +32,7 @@ a few select side effects fully masked.
 | C0009193  | Coccydynia       |
 | C0038019  | Spondylosis      |
 
-Note that for link prediction in Decagon we use the learned tensor decomposition z_i D_r R D_r z_j^T.
+Recall that for link prediction in Decagon we use the learned tensor decomposition z_i D_r R D_r z_j^T.
 Here, z_i \in R^d is an embedding of a node in the afore-mentioned interaction networks where d is the
 size of the final layer of Decagon.  D_r \in R^{d \times d} is a diagonal feature importance matrix for 
 side effect r.  Finally, R is a global interaction matrix, learned in particular by convolutions within
