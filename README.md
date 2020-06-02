@@ -3,7 +3,7 @@
 This repository holds the data necessary to correctly run the code in its sister repository, 
 [DecagonPredictor](https://github.com/jrectorb/DecagonPredictor).  Note that, due to Github's
 restriction on file size, some files here are stored in gzip format.  However, one may use the
-script at [TODO_FILL_ME_WITH_ACTUAL_SCRIPT](https://www.google.com) to get this directory in a
+script at [here](https://github.com/jrectorb/DecagonPredictor/blob/master/get-data.sh) to get this directory in a
 usable, uncompressed format.  In the following we provide description of the data contained within
 this directory.
 
