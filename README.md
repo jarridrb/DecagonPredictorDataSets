@@ -37,5 +37,10 @@ Here, z_i \in R^d is an embedding of a node in the afore-mentioned interaction n
 size of the final layer of Decagon.  D_r \in R^{d \times d} is a diagonal feature importance matrix for 
 side effect r.  Finally, R is a global interaction matrix, learned in particular by convolutions within
 Decagon's GNN.  The sister repository [DecagonPredictor](https://github.com/jrectorb/DecagonPredictor)
-uses these constructions to make predictions.  In light of this, 
+uses these constructions to make predictions.  In light of this, each sub-directory within 
+[ModelSpecificData](ModelSpecificData) contains three numpy files: `EmbeddingImportance.npz`, `GlobalRelations.npy`,
+and `embeddings.npy`.  The first of these (`EmbeddingImportance.npz`) is a collection of all D_r matrices.  
+The second of these (`GlobalRelations.npy`) is the matrix R.  The third `embeddings.npy` are the node embeddings
+z_i.  Finally, within each sub-directory here is also contained a `TestEdges.csv` file which details the edges
+of the test set for that specific training of Decagon.
 
